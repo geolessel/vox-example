@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" style="scrollbar-gutter: stable;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= assigns[:title] %> - Posts</title>
+  </head>
+  <body class="bg-zinc-100 antialiased">
+    <h1>Post template</h1>
+    <%= @inner_content %>
+  </body>
+</html>

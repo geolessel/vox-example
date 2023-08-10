@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" style="scrollbar-gutter: stable;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/mofo.css" />
+    <title>MOFO TEMPLATE - <%= assigns[:title] %></title>
+  </head>
+  <body class="bg-zinc-100 antialiased">
+    <h1>A special template for MOFO</h1>
+    <%= @inner_content %>
+  </body>
+</html>

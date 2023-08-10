@@ -1,0 +1,11 @@
+<%
+  title = "Posts"
+%>
+
+Here are all the posts:
+
+<ul>
+  <%= for post <- @posts do %>
+    <li><a href="<%= post.destination_path %>"><%= post.bindings[:title] %></a></li>
+  <% end %>
+</ul>

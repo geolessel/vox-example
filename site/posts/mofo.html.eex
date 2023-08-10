@@ -1,0 +1,16 @@
+<%
+  title = "Mofo"
+  date = ~D[2023-05-05]
+  template = "_mofo_template.html.eex"
+  collections = :posts
+%>
+
+<p>Looking for a sound to drown out the world.</p>
+
+<h2>An image using Blog.image/1</h2>
+<%=
+  Blog.image("./geo.jpg")
+%>
+
+<h2>An image using relative paths</h2>
+<img src="../images/bono.jpg" />

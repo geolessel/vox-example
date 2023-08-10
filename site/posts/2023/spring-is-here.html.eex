@@ -1,0 +1,13 @@
+<%
+  title = "Spring is here"
+  date = ~D[2023-05-01]
+  collections = :posts
+%>
+
+<h1>Spring is here!</h1>
+
+<h2>And here is a partial</h2>
+<%= Vox.partial("/posts/2023/_partial.html.eex") %>
+
+<h2>Here is a "partial" rendered by a custom function</h2>
+<%= Blog.p("This is rendered from the #{title} page") %>
