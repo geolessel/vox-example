@@ -8,9 +8,10 @@
 <p>Looking for a sound to drown out the world.</p>
 
 <h2>An image using Blog.image/1</h2>
-<%=
-  Blog.image("./geo.jpg")
-%>
+<%= Blog.image("/images/bono.jpg", width: 200) %>
 
 <h2>An image using relative paths</h2>
-<img src="../images/bono.jpg" />
+<img src="../images/bono.jpg" width="200" />
+
+<h2>An unfound image to generate a server 404</h2>
+<img src="not_found.jpg" />
