@@ -1,0 +1,2 @@
+<h3>I'm a partial and I'm about to render a partial</h3>
+<%= Vox.partial("/posts/2023/_partial.html.eex", assigns) %>
