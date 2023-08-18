@@ -1,0 +1,5 @@
+<%
+  title = "Posts index"
+%>
+
+The index page for posts

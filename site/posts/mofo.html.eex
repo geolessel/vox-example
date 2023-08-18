@@ -7,7 +7,7 @@
 
 <p>Looking for a sound to drown out the world.</p>
 
-<h2>An image using Blog.image/1</h2>
+<h2>An image using Blog.image/2</h2>
 <%= Blog.image("/images/bono.jpg", width: 200) %>
 
 <h2>An image using relative paths</h2>
