@@ -15,7 +15,7 @@
     <ul>
       <%= for post <- @posts do %>
         <li>
-          <a href="<%= post.destination_path %>" class="underline"><%= post.bindings[:title] %></a>
+          <a href="<%= post.destination_path %>" class="underline"><%= post.title %></a>
         </li>
       <% end %>
     </ul>
