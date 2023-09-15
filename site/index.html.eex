@@ -16,6 +16,7 @@
       <%= for post <- @posts do %>
         <li>
           <a href="<%= post.destination_path %>" class="underline"><%= post.title %></a>
+          by <a href="<%= post.author.site %>" class="underline"><%= post.author.name %></a>
         </li>
       <% end %>
     </ul>

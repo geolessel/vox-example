@@ -2,6 +2,10 @@
   title = "Mofo"
   date = ~D[2023-05-05]
   template = "_mofo_template.html.eex"
+  author = %{
+    name: "Geoffrey Lessel",
+    site: "https://builditwithphoenix.com"
+  }
   collections = :posts
 %>
 

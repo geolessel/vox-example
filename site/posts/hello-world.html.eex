@@ -2,6 +2,10 @@
   title = "Hello world"
   date  = ~D[2023-04-16]
   collections = [:posts, :hello]
+  author = %{
+    name: "Geoffrey Lessel",
+    site: "https://builditwithphoenix.com"
+  }
 %>
 
 <h1>Hello, world</h1>

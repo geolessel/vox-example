@@ -7,7 +7,6 @@ defmodule VoxExample.Esbuild do
     }
   end
 
-  @impl true
   def start_link(_args) do
     Task.start_link(Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)])
   end
